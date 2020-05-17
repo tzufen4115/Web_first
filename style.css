@@ -1,3 +1,49 @@
+@font-face{
+    font-family: Ngaan;
+    src:url(./font/I.Ngaan.ttf)
+}
+
+
 *{
-    color: #d5d5d5
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#banner{
+    height: 100px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+#title{
+    margin: 25px;
+    text-align: center;
+}
+
+#nav{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding-top: 35px;
+    text-align: center;
+    text-align: center;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+nav a:hover{
+    color: gray;
+    font-size: 13px;
+}
+
+#title span{
+    font-size: 36px;
+    font-family: Ngaan;
+    font-weight: 900;
 }
