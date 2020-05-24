@@ -16,7 +16,7 @@
     font-size: 40px;
     font-family: Ngaan;
     font-weight: 900;
-
+    color:#db8f00;
 }
 
 /* 橫幅圖文 */
@@ -113,7 +113,7 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 500px;
+    height: 400px;
     margin-top: 5px;
 }
 
@@ -130,3 +130,84 @@ section > h1{
     margin-right: 15px;
 }
 
+/* 最新消息 */
+#news ul{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    /* 去掉前面的定義式符號 */
+    list-style: none;
+    line-height: 2.5;
+}
+
+#news ul span{
+    color: gray;
+    font-style: italic;
+    font-size: 15px;
+}
+
+#news div{
+    text-align: right;
+}
+/* 更多消息 */
+#news a{
+    text-decoration: none;
+    color: #db8f00;
+}
+
+/* 聯絡我們 */
+#contact{
+    text-align: center;
+}
+
+#contact input{
+    padding: 10px;
+    text-align: center;
+}
+
+#contact p{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 2.5;
+}
+
+#contact form{
+    width:80%;
+    margin: 0 auto;
+}
+
+#contact form div{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    /* 網格之間的間隙 */
+    grid-gap: 10px;
+    margin-top: 50px;
+}
+
+#contact form textarea{
+    grid-column: 1/3;
+    height: 150px;
+}
+
+#contact input[type="submit"]{
+    width: 300px;
+    background-color: #252525;
+    color: #fff;
+    margin: 10px 0;
+    border: 0;
+    transition: 0.3s;
+    padding: 20px;
+}
+
+#contact input[type="submit"]:hover{
+    background-color: rgb(117, 60, 38);
+    color:#db8f00;
+    border:0.5px solid #db8f00;
+}
+
+footer{
+    padding: 100px;
+    text-align: center;
+    background-color: #252525;
+    color: #db8f00;
+}
