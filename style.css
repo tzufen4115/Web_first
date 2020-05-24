@@ -72,13 +72,13 @@ nav{
 #banner div{
     width:800px;
     margin: 0 auto;
-    margin-top: 150px;
+    margin-top: 20px;
 }
 
 /* 橫幅內文字 */
 #banner div h1, #banner div h4{
     font-family: Ngaan;
-    text-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+    text-shadow: 0 3px 2px rgba(0, 0, 0, 0.5);
 }
 
 #banner div h1{
@@ -197,6 +197,8 @@ section > h1{
     border: 0;
     transition: 0.3s;
     padding: 20px;
+    font-size: 14px;
+    letter-spacing: 2px;
 }
 
 #contact input[type="submit"]:hover{
